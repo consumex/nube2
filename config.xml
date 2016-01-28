@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+xmlns:gap="http://phonegap.com/ns/1.0"
+xmlns:android="http://schemas.android.com/apk/res/android"
+        version="5"
+>
+<name short="Nube">
+Nube
+</name>
+<description>
+Plantilla 05 A1web Editable
+</description>
+<author>
+A1web - Daniel López P.
+</author>
+<content src="index.html"/>
+<access origin="*"/>
+<gap:platform name="android"/>
+<gap:platform name="ios"/>
+<gap:platform name="winphone"/>
+<preference name="orientation" value="default" />
+<preference name="android-MediaPlaybackRequiresUserAction" value="false" />
+<preference name="android-AllowInlineMediaPlayback" value="true" />
+<feature name="http://api.phonegap.com/1.0/device" />
+<feature name="http://api.phonegap.com/1.0/media" />
+<gap:plugin name="org.apache.cordova.device" />
+<gap:plugin name="org.apache.cordova.media" />
+<gap:plugin name="org.apache.cordova.device-orientation" />
+</widget>
